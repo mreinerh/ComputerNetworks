@@ -1,7 +1,7 @@
 # QUICK QUESTION SQUAD, should the program exit if it receives nothing at all? Currently, it does. 
 
 """
-Title:          Echo Server Program
+Title:          Echo Stream Server Program
 Authors:        Alex Higgins, Matt Haneburger, Steven King, Tony Raubenheimer
 Description:    Listens on assigned TCP port, 22600, for an input connection. The server echoes each _line_ of 
                 input from the client, until it gets the line "exit" or "quit". 
