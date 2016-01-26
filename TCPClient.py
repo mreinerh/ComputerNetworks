@@ -1,3 +1,5 @@
+# This file isn't neccessary to turn in. It's just to test the TCP server - this can be run anywhere; whereas, the server has to run on VM420
+
 import socket
 
 HOST = '172.17.149.120'    # The remote host
