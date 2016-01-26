@@ -1,5 +1,3 @@
-# QUICK QUESTION SQUAD, should the program exit if it receives nothing at all? Currently, it does. 
-
 """
 Title:          Echo Stream Server Program
 Authors:        Alex Higgins, Matt Haneburger, Steven King, Tony Raubenheimer
@@ -23,8 +21,8 @@ while 1:
 # This is an infinite loop, which loops indefinitely because we want to collect data until the data equals quit, exit, or no message at all.
     message = info.recv(1024)
     if not message:
-    # if this matches anything other than a message, we break
-        break
+    # if this matches anything other than a message, we print a blank statement
+        print("") 
     elif (message == "quit"):
     # if the message equals quit, we print the quitting message, close the socket, and exit the loop
         print ("Received quit command. Quitting now")
